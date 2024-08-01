@@ -44,21 +44,21 @@ Credit score:
 - Balance—also a very good indicator of customer churn, as people with a higher balance in their accounts are less likely to leave the bank compared to those with lower balances.
 - NumOfProducts—refers to the number of products that a customer has purchased through the bank.
 - HasCrCard—denotes whether or not a customer has a credit card. This column is also relevant, since people with a credit card are less likely to leave the bank.
-•	1 represents credit card holder
-•	0 represents non credit card holder
+(•	1 represents credit card holder
+•	0 represents non credit card holder)
 - IsActiveMember—active customers are less likely to leave the bank.
-•	1 represents Active Member
-•	0 represents Inactive Member
+(•	1 represents Active Member
+•	0 represents Inactive Member)
 - Estimated Salary—as with balance, people with lower salaries are more likely to leave the bank compared to those with higher salaries.
 - Exited—whether or not the customer left the bank.
-  0 represents Retain 
-  1 represents Exit
-  - Bank DOJ — date when the Customer associated/joined with the bank.
+  (0 represents Retain 
+  1 represents Exit)
+- Bank DOJ — date when the Customer associated/joined with the bank.
 
 Data Gathering:
 
 Please use the following data assets to pull the data related to Bank customer and associated details.
--ActiveCustomer
+- ActiveCustomer
 - Bank_Churn
 - CreditCard
 - CustomerInfo
@@ -75,15 +75,15 @@ Please use the following data assets to pull the data related to Bank customer a
 
 
 ## Data Structure and Source
-The dataset is in Excel (.csv) format with 10,000 rows and 14 columns. It contains accident details with fields like RowNumber, CustomerId, CreditScore, GeographyID, GenderID, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, and others. There are 7 excel files with the below names.
+The dataset is in Excel (.csv) format with 10,000 rows and 14 columns. It contains accident details with fields like RowNumber, CustomerId, CreditScore, GeographyID, GenderID, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, and others. There are 7 excel files in total with the below names.
 
-o	ActiveCustomer 
-o	Bank_Churn
-o	CreditCard
-o	CustomerInfo
-o	ExitCustomer
-o	Gender
-o	Geography
+- ActiveCustomer
+- Bank_Churn
+- CreditCard
+- CustomerInfo
+- ExitCustomer
+- Gender
+- Geography
 
 The datasets are attached in this repository.
 
