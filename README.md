@@ -4,7 +4,7 @@ Customer Churn Analysis for the Royal Bank of Canada using Power BI.
 
 ## Table of Contents
 - [Project Description](#project-description)
-- [Project Goal](#project-goal)
+- [Project Objective](#project-objective)
 - [Data Dictionary](#data-dictionary)
 - [Project Requirement](#project-requirement)
 - [Data Limitations](#data-limitations)
@@ -22,8 +22,12 @@ Customer Churn Analysis for the Royal Bank of Canada using Power BI.
 ## Project Description
 By analyzing key factors that impact churn rates, including customer demographics and service usage patterns. Customer churn is a critical issue for banks as it can lead to revenue loss and damage to the bank's reputation. RBC bank management team is keen to understand the factors that contribute to customer churn and identify opportunities to improve customer retention. This analysis uncovers actionable strategies to mitigate churn and boost customer loyalty. These insights are designed to help the bank enhance its overall performance and customer satisfaction.
 
-## Project Goal
-This project aims to tackle the issue of customer attrition at the bank by utilizing Power BI for churn analysis. The bank is facing a significant rate of customer churn, which is adversely affecting its revenue and overall growth. This analysis aims to identify key trends and patterns in customer behavior that contribute to churn, helping to develop strategies to mitigate these losses.
+
+## Project Objective
+In this project, I analyzed data from multiple sources, including ActiveCustomer, Bank_Churn, CreditCard, CustomerInfo, ExitCustomer, Gender, and Geography, to uncover key insights into customer churn. The analysis explored critical factors such as credit score, age, tenure, balance, number of products, credit card usage, active membership, estimated salary, and customer demographics.
+
+The primary business objective was to identify the underlying causes of customer churn and devise effective loyalty programs and retention campaigns. Through this analysis, I provided actionable insights aimed at enhancing customer experience and satisfaction. The findings were presented in a comprehensive report with clear visualizations and strategic recommendations for the bank to improve its customer retention efforts.
+
 
 
 ## Data Dictionary
@@ -127,7 +131,19 @@ Here, I explored the relationship between these tables and how they are connecte
 
 
 ## Recommendations
+**Enhance Customer Experience:** The analysis indicates a strong correlation between customer satisfaction and churn. To address this, the bank should prioritize improving the overall customer experience through personalized services, swift issue resolution, and effective communication channels.
 
+**Strengthen Loyalty Programs:** Developing and enhancing loyalty programs can provide significant incentives for customers to remain with the bank. These programs could include cashback rewards, service discounts, and exclusive offers tailored to customer preferences.
+
+**Retain High-Balance Customers:** The analysis highlights that customers with higher balances are less prone to churn. The bank should focus on retaining these valuable customers by offering personalized services, premium perks such as higher interest rates, and priority support.
+
+**Boost Active Membership:** With active members showing a lower likelihood of churning, the bank should work on increasing active membership. This can be achieved by promoting the benefits of being an active member and offering incentives that encourage greater engagement with the bank.
+
+**Encourage Credit Card Usage:** Customers who actively use credit cards are less likely to churn. The bank should promote credit card usage by providing rewards and benefits for transactions made using credit cards, thereby increasing customer retention.
+
+**Proactively Address Customer Concerns:** Customer concerns and unresolved issues are major contributors to churn. The bank should proactively address these concerns by ensuring prompt and satisfactory resolutions, which will help build trust and reduce attrition.
+
+**Engage Younger Customers:** The analysis reveals that younger customers have a higher propensity to churn. The bank should target this demographic by offering customized products and services that align with their needs and preferences, thus fostering long-term loyalty.
 
 
 
