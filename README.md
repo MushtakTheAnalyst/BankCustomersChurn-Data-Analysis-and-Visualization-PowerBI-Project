@@ -118,7 +118,35 @@ Here, I explored the relationship between these tables and how they are connecte
 
 ## Data Analysis
 
+Following are the DAX measures used for the customer churn analysis
+
 Active Customers = CALCULATE(COUNT(Bank_Churn[CustomerId]),ActiveCustomer[ActiveCategory]="Active Member")
+
+Churn % = 
+VAR EC = [Exit Customers]
+VAR TC = [Total Customers]
+VAR ChurnPer = DIVIDE(EC,TC)
+RETURN
+ChurnPer
+
+Credit Card Holders = CALCULATE(COUNT(Bank_Churn[CustomerId]),CreditCard[Category]="credit card holder")
+
+Exit Customers = CALCULATE([Total Customers],ExitCustomer[ExitCategory]="Exit")
+
+Inactive Customers = CALCULATE(COUNT(Bank_Churn[CustomerId]),ActiveCustomer[ActiveCategory]="Inactive Member")
+
+Non Credit Card Holders = CALCULATE(COUNT(Bank_Churn[CustomerId]),CreditCard[Category]="non credit card holder")
+
+Previous Month Exit Customers = CALCULATE([Exit Customers],PREVIOUSMONTH(DateMaster[Date]))
+
+Retain Customers = CALCULATE([Total Customers],ExitCustomer[ExitCategory]="Retain")
+
+Total Customers = COUNT(Bank_Churn[CustomerId])
+
+
+I had also created a seperate Date table as shown below for calculating all the DAX measures
+
+![Screenshot 2024-08-17 143256](https://github.com/user-attachments/assets/94ad09bc-3deb-4050-bebe-d903492f0127)
 
 
 
