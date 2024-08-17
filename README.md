@@ -120,28 +120,28 @@ Here, I explored the relationship between these tables and how they are connecte
 
 Following are the DAX measures used for the customer churn analysis
 
-Active Customers = CALCULATE(COUNT(Bank_Churn[CustomerId]),ActiveCustomer[ActiveCategory]="Active Member")
+- Active Customers = CALCULATE(COUNT(Bank_Churn[CustomerId]),ActiveCustomer[ActiveCategory]="Active Member")
 
-Churn % = 
-VAR EC = [Exit Customers]
-VAR TC = [Total Customers]
-VAR ChurnPer = DIVIDE(EC,TC)
-RETURN
-ChurnPer
+- Churn % = 
+  VAR EC = [Exit Customers]
+  VAR TC = [Total Customers]
+  VAR ChurnPer = DIVIDE(EC,TC)
+  RETURN
+  ChurnPer
 
-Credit Card Holders = CALCULATE(COUNT(Bank_Churn[CustomerId]),CreditCard[Category]="credit card holder")
+- Credit Card Holders = CALCULATE(COUNT(Bank_Churn[CustomerId]),CreditCard[Category]="credit card holder")
 
-Exit Customers = CALCULATE([Total Customers],ExitCustomer[ExitCategory]="Exit")
+- Exit Customers = CALCULATE([Total Customers],ExitCustomer[ExitCategory]="Exit")
 
-Inactive Customers = CALCULATE(COUNT(Bank_Churn[CustomerId]),ActiveCustomer[ActiveCategory]="Inactive Member")
+- Inactive Customers = CALCULATE(COUNT(Bank_Churn[CustomerId]),ActiveCustomer[ActiveCategory]="Inactive Member")
 
-Non Credit Card Holders = CALCULATE(COUNT(Bank_Churn[CustomerId]),CreditCard[Category]="non credit card holder")
+- Non Credit Card Holders = CALCULATE(COUNT(Bank_Churn[CustomerId]),CreditCard[Category]="non credit card holder")
 
-Previous Month Exit Customers = CALCULATE([Exit Customers],PREVIOUSMONTH(DateMaster[Date]))
+- Previous Month Exit Customers = CALCULATE([Exit Customers],PREVIOUSMONTH(DateMaster[Date]))
 
-Retain Customers = CALCULATE([Total Customers],ExitCustomer[ExitCategory]="Retain")
+- Retain Customers = CALCULATE([Total Customers],ExitCustomer[ExitCategory]="Retain")
 
-Total Customers = COUNT(Bank_Churn[CustomerId])
+- Total Customers = COUNT(Bank_Churn[CustomerId])
 
 
 I had also created a seperate Date table as shown below for calculating all the DAX measures
