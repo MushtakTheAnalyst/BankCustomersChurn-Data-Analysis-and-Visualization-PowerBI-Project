@@ -7,7 +7,7 @@ Customer Churn Analysis for the Royal Bank of Canada using Power BI.
 - [Project Goal](#project-goal)
 - [Data Dictionary](#data-dictionary)
 - [Project Requirement](#project-requirement)
-- [Stakeholders List](#stakeholders-list)
+- [Data Limitations](#data-limitations)
 - [Data Structure and Source](#data-structure-and-source)
 - [Introduction](#introduction)
 - [Data Cleaning and Transformation](#data-cleaning-and-transformation)
@@ -50,7 +50,7 @@ This project aims to tackle the issue of customer attrition at the bank by utili
 •	0 represents Exit)
 - Bank DOJ — date when the Customer associated/joined with the bank.
 
-Data Gathering:
+### Data Gathering:
 The following data assets are used to pull the data related to Bank customer and associated details.
 - ActiveCustomer
 - Bank_Churn
@@ -61,9 +61,10 @@ The following data assets are used to pull the data related to Bank customer and
 - Geography
 
 
-## Stakeholders List
-- Bank Manager
-- Customer Relationship Manager
+
+## Data Limitations
+The data provided by the business user is only that of salary-earning customers.
+
 
 
 ## Data Structure and Source
@@ -80,6 +81,7 @@ The dataset used for this analysis is in CSV format and contains 10,000 rows and
 The datasets are attached in this repository (zip file).
 
 
+
 ## Introduction
 
 Before diving in, let’s familiarize ourselves with a few key terminologies relevant to this project:
@@ -89,21 +91,21 @@ Before diving in, let’s familiarize ourselves with a few key terminologies rel
 - Churn Analysis: The process of examining and understanding the rate at which customers discontinue their relationship with a company over a specific period of time.
 
 
+
 ## Data Cleaning and Transformation
 
 I opened the data in excel and inspected the columns for relevance to the business task (This can equally be done directly on Power Query), I was able to confirm that there is sufficient data to aid my analysis. However, data needed to be cleaned and properly transformed in the format that would be useful for the analysis.
 
-Limitations: The data provided by the business user is only that of salary-earning customers.
-
 
 **Preview of a section of the data sheet -**
+
 ![Screenshot 2024-08-01 173954](https://github.com/user-attachments/assets/74b3d482-48a7-4711-9b74-e10c8e2ea7d2)
 
 
 
 ## Data Modelling
 
-Here, I explored the relationship between these tables and how they are connected. I also arranged them so that it will be easier to econnect with the primary keys. This is to make visualisation easy. Power BI pre-detected most of the cardinality of the model relationship as many-to-one which is correct.
+Here, I explored the relationship between these tables and how they are connected. I also arranged them so that it will be easier to connect with the primary keys. This is to make visualisation easy. Power BI pre-detected most of the cardinality of the model relationship as many-to-one which is correct.
 
 
 ![Screenshot 2024-08-01 175735](https://github.com/user-attachments/assets/ae658edc-c09b-44fc-bf1b-6748cd18aa62)
