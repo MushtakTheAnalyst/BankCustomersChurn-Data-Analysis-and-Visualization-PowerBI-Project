@@ -118,6 +118,8 @@ Here, I explored the relationship between these tables and how they are connecte
 
 ## Data Analysis
 
+Active Customers = CALCULATE(COUNT(Bank_Churn[CustomerId]),ActiveCustomer[ActiveCategory]="Active Member")
+
 
 
 ## Dashboard Overview
