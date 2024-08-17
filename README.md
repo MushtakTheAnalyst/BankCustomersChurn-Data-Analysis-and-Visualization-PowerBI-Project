@@ -6,7 +6,6 @@ Customer Churn Analysis for the Royal Bank of Canada using Power BI.
 - [Project Description](#project-description)
 - [Project Objective](#project-objective)
 - [Data Dictionary](#data-dictionary)
-- [Project Requirement](#project-requirement)
 - [Data Limitations](#data-limitations)
 - [Data Structure and Source](#data-structure-and-source)
 - [Introduction](#introduction)
@@ -152,6 +151,11 @@ I had also created a seperate Date table as shown below for calculating all the 
 
 ## Dashboard Overview
 
+![1](https://github.com/user-attachments/assets/db228b82-787f-402d-88d1-c4610aba84eb)
+
+![2](https://github.com/user-attachments/assets/c692b485-6d60-4837-a926-62f856a2d4df)
+
+![3](https://github.com/user-attachments/assets/ca830c52-608a-4671-9d1d-a4a29b1d6f6a)
 
 
 
