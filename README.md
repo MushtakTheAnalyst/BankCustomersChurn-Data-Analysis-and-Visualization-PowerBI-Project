@@ -161,6 +161,21 @@ I had also created a seperate Date table as shown below for calculating all the 
 
 ## Key Insights
 
+1. **High Churn Among Middle-Aged Customers:** The churn rate is significantly high at 71.4% for customers aged between 50–60 years.
+  
+2. **Gender-Based Churn Rate:** Males exhibit a higher churn rate of 60.37% compared to females, whose churn rate is 39.63%.
+
+3. **Country-Specific Churn:** Germany has consistently had the highest churn rate since 2016 compared to other countries.
+
+4. **Churn by Credit Type:** Customers with "Fair" and "Good" credit ratings are exiting at higher rates compared to those with "Very Good" and "Excellent" credit ratings.
+
+5. **Yearly and Monthly Churn Trends:** The churn percentage was lowest in 2016 and showed improvement in 2019 when compared to the previous two years.
+
+6. **Total vs. Exit Customers by Year and Activity:** The trend in total and exit customers by year and activity category indicates that the range between total and exit customers remains consistent.
+
+7. **Churn by Gender:** An analysis of churned customers indicates a slightly higher exit rate among female customers compared to males when filtered by churn.
+
+8. **Churn by Credit Card Usage:** Credit card holders exhibit a significantly higher churn rate at 69.91% compared to non-credit card holders, who have a churn rate of 30.09%.
 
 
 
