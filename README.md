@@ -64,7 +64,6 @@ The following data assets are used to pull the data related to Bank customer and
 ## Stakeholders List
 - Bank Manager
 - Customer Relationship Manager
-- CEO
 
 
 ## Data Structure and Source
@@ -78,7 +77,7 @@ The dataset used for this analysis is in CSV format and contains 10,000 rows and
 - Gender
 - Geography
 
-The datasets are attached in this repository.
+The datasets are attached in this repository (zip file).
 
 
 ## Introduction
